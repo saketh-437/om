@@ -9,7 +9,7 @@ def searchbar():
     if q:
         if save == 'sun':
             # Path to your PDF
-            pdf_path = r"python\vidoes\SUN.pdf"
+            pdf_path = r"python/vidoes/SUN.pdf"
 
             # Open and read PDF file as bytes
             with open(pdf_path, "rb") as f:
@@ -23,7 +23,7 @@ def searchbar():
             st.write('scroll down')
         elif save == 'earth':
             # Path to your PDF
-            pdf_path = r"python\vidoes\EARTH.pdf"
+            pdf_path = r"python/vidoes/EARTH.pdf"
 
             # Open and read PDF file as bytes
             with open(pdf_path, "rb") as f:
@@ -37,7 +37,7 @@ def searchbar():
             st.write('scroll down')
         elif save == 'mars':
             # Path to your PDF
-            pdf_path = r"python\vidoes\mars.pdf"
+            pdf_path = r"python/vidoes/mars.pdf"
 
             # Open and read PDF file as bytes
             with open(pdf_path, "rb") as f:
@@ -51,7 +51,7 @@ def searchbar():
             st.write('scroll down')
         elif save == 'jupiter':
             # Path to your PDF
-            pdf_path = r"python\vidoes\jupiter.pdf"
+            pdf_path = r"python/vidoes/jupiter.pdf"
 
             # Open and read PDF file as bytes
             with open(pdf_path, "rb") as f:
@@ -66,7 +66,7 @@ def searchbar():
             st.write('scroll down')
         elif save == 'mercury':
             # Path to your PDF
-            pdf_path = r"python\vidoes\mercury.pdf"
+            pdf_path = r"python/vidoes/mercury.pdf"
 
             # Open and read PDF file as bytes
             with open(pdf_path, "rb") as f:
@@ -80,7 +80,7 @@ def searchbar():
             st.write('scroll down')
         elif save == 'venus':
             # Path to your PDF
-            pdf_path = r"python\vidoes\venus.pdf"
+            pdf_path = r"python/vidoes/venus.pdf"
 
             # Open and read PDF file as bytes
             with open(pdf_path, "rb") as f:
@@ -95,7 +95,7 @@ def searchbar():
             st.write('scroll up')
         elif save == 'saturn':
             # Path to your PDF
-            pdf_path = r"python\vidoes\saturn.pdf"
+            pdf_path = r"python/vidoes/saturn.pdf"
 
             # Open and read PDF file as bytes
             with open(pdf_path, "rb") as f:
@@ -109,7 +109,7 @@ def searchbar():
             st.write('scroll down')
         elif save == 'neptune':
             # Path to your PDF
-            pdf_path = r"python\vidoes\neptune.pdf"
+            pdf_path = r"python/vidoes/neptune.pdf"
 
             # Open and read PDF file as bytes
             with open(pdf_path, "rb") as f:
@@ -123,7 +123,7 @@ def searchbar():
             st.write('scroll down')
         elif save == 'uranus':
             # Path to your PDF
-            pdf_path = r"python\vidoes\uranus.pdf"
+            pdf_path = r"python/vidoes/uranus.pdf"
 
             # Open and read PDF file as bytes
             with open(pdf_path, "rb") as f:
@@ -140,14 +140,14 @@ searchbar()
 st.divider()
 st.header('SOLAR SYSTEM')
 st.divider()
-st.image("python\images\solarsystem.png")
+st.image("python/images/solarsystem.png")
 st.divider()
 st.header('PLANTS')
 st.divider()
 # earth #
 col1, col2 = st.columns(2)
 with col1:
-    st.image("python\images\earth.png")
+    st.image("python/images/earth.png")
 with col2:
     st.subheader('EARTH:')
     st.write('''Earth is the third planet from the Sun in our solar system.
@@ -160,7 +160,7 @@ with col2:
 # sun #
 wan1, wan2 = st.columns(2)
 with wan1:
-    st.image("python\images\sun.png")
+    st.image("python/images/sun.png")
 with wan2:
     st.subheader('SUN:')
     st.write('''The Sun is a massive ball of hot gases at the center of our solar system.
@@ -173,7 +173,7 @@ with wan2:
 # mars #
 san1, san2 = st.columns(2)
 with san1:
-    st.image("python\images\mars.png")
+    st.image("python/images/mars.png")
 with san2:
     st.subheader('MARS:')
     st.write('''Mars is the fourth planet from the Sun in our solar system.
@@ -186,7 +186,7 @@ with san2:
 # jupiter #
 tan1, tan2 = st.columns(2)
 with tan1:
-    st.image(r'python\images\neptune.png')
+    st.image(r'python/images/neptune.png')
 with tan2:
     st.subheader('JUPITER:')
     st.write('''Jupiter is the fifth planet from the Sun and the largest in our solar system.
@@ -199,7 +199,7 @@ with tan2:
 # saturn #
 zan1, zan2 = st.columns(2)
 with zan1:
-    st.image(r'python\images\saturn.png')
+    st.image(r'python/images/saturn.png')
 with zan2:
     st.subheader('SATURN:')
     st.write('''Saturn is the sixth planet from the Sun and the second-largest in our solar system.
@@ -212,7 +212,7 @@ with zan2:
 # neptune #
 qan1, qan2 = st.columns(2)
 with qan1:
-    st.image('python\images\jupiter.png')
+    st.image('python/images/jupiter.png')
 with qan2:
     st.subheader('NEPTUNE:')
     st.write('''Neptune is the eighth and farthest planet from the Sun in our solar system.
@@ -225,7 +225,7 @@ with qan2:
 # uranus #
 yan1, yan2 = st.columns(2)
 with yan1:
-    st.image(r'python\images\theman.png')
+    st.image(r'python/images/theman.png')
 with yan2:
     st.subheader('URANUS:')
     st.write('''Uranus is the seventh planet from the Sun in our solar system.
@@ -238,7 +238,7 @@ with yan2:
 # venus #
 han1, han2 = st.columns(2)
 with han1:
-    st.image(r'python\images\venus.png')
+    st.image(r'python/images/venus.png')
 with han2:
     st.subheader('VENUS:')
     st.write('''Venus is the second planet from the Sun and is similar in size to Earth.
@@ -251,7 +251,7 @@ with han2:
 # mercury #
 mang1, mang2 = st.columns(2)
 with mang1:
-    st.image(r'python\images\mercury.png')
+    st.image(r'python/images/mercury.png')
 with mang2:
     st.subheader('MERCURY:')
     st.write('''Mercury is the closest planet to the Sun and the smallest in our solar system.
