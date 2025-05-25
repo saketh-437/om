@@ -15,7 +15,7 @@ with col1:
         st.warning("No user data found. Please submit the form on the main page.")
 
 with col2:
-    st.image(r'python\images\code.png')
+    st.image(r'python/images/code.png')
 
 
 st.write("""THIS WEBSITE IS FOR KNOWNING ABOUT OUR
@@ -26,11 +26,11 @@ st.write("""THIS WEBSITE IS FOR KNOWNING ABOUT OUR
 st.divider()
 st.text('click here to visit my youtube channel:')
 st.markdown("https://www.youtube.com/channel/UCuDpJGQky9Bgj2z_ugS8GfA")
-st.image(r'python\images\youtube.jpg')
+st.image(r'python/images/youtube.jpg')
 st.divider()
 st.text('click here to visit my instagram:')
 st.markdown('https://www.instagram.com/saketh_437?igsh=ODRqbjYwenkyN2F3')
-st.image('python\images\instagram.jpg')
+st.image('python/images/instagram.jpg')
 st.divider()
 st.write('PLEASE SUPPORT ME ON YOUTUBE AND INSTAGRAM')
 st.write('IF YOU WANT YOU CONTACT ME YOU CAN MESSAGE ON INSTAGRAM')
